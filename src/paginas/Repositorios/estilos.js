@@ -48,9 +48,27 @@ const estilos = StyleSheet.create({
         borderRadius: 8,
         width: '90%',
     },
+    botaoBusca: {
+        backgroundColor: '#8A07DA',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 8,
+        marginLeft: 8,
+        width: '20%'
+    },
     textoBotao: {
         fontSize: 16,
         color: '#FFF',
+    },
+    entrada: {
+        borderWidth: 2,
+        borderColor: '#ddd',
+        paddingHorizontal: 20,
+        fontSize: 16,
+        color: '#444',
+        borderRadius: 8,
+        height: 44,
+        width: '75%',
     },
 });
 
